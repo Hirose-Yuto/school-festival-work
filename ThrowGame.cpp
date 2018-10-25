@@ -276,7 +276,7 @@ void ThrowFromEarthGame::JudgeMagnification() {
 	if (CheckHitKey(KEY_INPUT_LEFT)) ScreenMagnification -= 0.01;
 	if (ScreenMagnification < 1 && CheckHitKey(KEY_INPUT_RIGHT)) ScreenMagnification += 0.01;
 }
-*///倍率かけて表示しようとしたときの残骸、余裕があれば作れた
+*///倍率かけて表示しようとしたときの残骸、余裕があれば作れたかな
 
 void ThrowFromEarthGame::BallRadianCalculate() {
 	if ((int)YPosition != 240) {
